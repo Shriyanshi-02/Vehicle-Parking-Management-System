@@ -1,0 +1,179 @@
+/* General Layout */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50; /* Charcoal Blue */
+}
+
+/* Container */
+.container {
+  background: #ffffff; /* White background */
+  border-radius: 14px;
+  padding: 32px 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.13);
+}
+
+/* Headings */
+h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #2c3e50 60%, #18bc9c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border-radius: 13px;
+  border: none;
+  box-shadow: 0 5px 20px rgba(44, 62, 80, 0.07);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 40px rgba(44, 62, 80, 0.12);
+}
+
+/* Card Headers */
+.card-header {
+  font-weight: 600;
+  font-size: 1.2rem;
+  background: linear-gradient(90deg, #18bc9c 40%, #2c3e50 100%);
+  color: #ffffff;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  padding: 12px 20px;
+}
+
+/* Card Body */
+.card-body {
+  color: #2c3e50;
+  padding: 20px;
+}
+
+/* Profile Image */
+.card-body img {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  border: 3px solid #18bc9c;
+  box-shadow: 0 2px 12px rgba(24, 188, 156, 0.4);
+  margin-bottom: 15px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+table th, table td {
+  vertical-align: middle !important;
+  padding: 12px 15px !important;
+  color: #2c3e50;
+}
+
+table thead th {
+  background: #18bc9c;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+table tbody tr {
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+table tbody tr:hover {
+  background: #e0f2f1;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  min-width: 90px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-sm {
+  font-size: 0.875rem;
+  padding: 6px 12px;
+}
+
+.btn-outline-primary {
+  border-color: #18bc9c;
+  color: #18bc9c;
+}
+
+.btn-outline-primary:hover {
+  background-color: #18bc9c;
+  color: #ffffff;
+}
+
+/* Alerts */
+.alert {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Modal Styles */
+[v-cloak] {
+  display: none;
+}
+
+div[style*="position:fixed"] {
+  background-color: rgba(44, 62, 80, 0.3) !important;
+}
+
+form label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+input.form-control {
+  border-radius: 8px;
+  border: 1.5px solid #18bc9c;
+  padding: 8px 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+input.form-control:focus {
+  box-shadow: 0 0 6px #18bc9c;
+  border-color: #18bc9c;
+  outline: none;
+}
+
+/* Canvas Cards for Charts */
+.card canvas {
+  padding: 10px 0;
+  height: 20px;  /* Reduced height for slimmer look */
+}
+
+/* Responsive Spacing for Smaller Screens */
+@media (max-width: 500px) {
+  .container {
+    padding: 15px !important;
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 18px;
+  }
+  table thead th, table tbody td {
+    padding: 8px 10px !important;
+  }
+  .card canvas {
+    height: 200px; /* Reduce chart height for smaller screens */
+  }
+}

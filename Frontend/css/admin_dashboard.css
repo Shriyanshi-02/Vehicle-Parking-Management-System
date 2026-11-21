@@ -1,0 +1,186 @@
+/* General Layout */
+body {
+  background-color: #f4f7fa; /* Very Light Gray */
+  color: #2c3e50; /* Charcoal Blue */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.admin-navbar {
+  background-color: #2c3e50; /* Charcoal Blue */
+  color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.admin-navbar a:hover {
+  color: #18bc9c; /* Turquoise */
+}
+
+/* Navbar Buttons */
+.admin-navbar .btn {
+  background-color: #ffffff; /* White */
+  color: #2c3e50; /* Charcoal Blue */
+  border: 1px solid #2c3e50;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.admin-navbar .btn:hover {
+  background-color: #18bc9c; /* Turquoise */
+  color: #ffffff; /* White */
+  border-color: #18bc9c;
+}
+
+/* Logout Button */
+.admin-navbar .btn-logout {
+  background-color: #e74c3c; /* Soft Red */
+  color: #ffffff; /* White */
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.admin-navbar .btn-logout:hover {
+  background-color: #c0392b; /* Darker Red */
+  border-color: #c0392b;
+}
+/* Header */
+h2 {
+  color: #2c3e50; /* Charcoal Blue */
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #18bc9c; /* Turquoise */
+  padding-bottom: 10px;
+}
+
+/* Profile Card */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 2px solid #18bc9c; /* Turquoise */
+}
+
+/* Stat Cards */
+.card .card-title {
+  font-size: 1.2rem;
+  color: #2c3e50; /* Charcoal Blue */
+}
+
+.card .card-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50; /* Charcoal Blue */
+}
+
+.card .card-text span {
+  font-size: 0.9rem;
+}
+
+.card .badge {
+  background-color: #f39c12; /* Amber */
+  color: #ffffff;
+}
+
+/* Highlighted Text */
+.text-highlight {
+  color: #e74c3c; /* Soft Red */
+  font-weight: bold;
+}
+
+/* Charts */
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Chart Headers */
+.card-header {
+  background-color: #2c3e50; /* Charcoal Blue */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  background-color: #18bc9c; /* Turquoise */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #16a085; /* Slightly darker turquoise */
+}
+
+/* View Button Styling */
+.btn-info {
+  background-color: #2c3e50; /* Charcoal Blue */
+  color: #ffffff; /* White */
+  border: 1px solid #2c3e50; /* Charcoal Blue */
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-info:hover {
+  background-color: #18bc9c; /* Turquoise */
+  color: #ffffff; /* White */
+  border-color: #18bc9c; /* Turquoise */
+}
+
+
+/* Table */
+.table {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.table th {
+  background-color: #2c3e50; /* Charcoal Blue */
+  color: #ffffff;
+}
+
+.table td {
+  color: #2c3e50; /* Charcoal Blue */
+}
+
+/* Progress Bars */
+.progress-bar {
+  background-color: #18bc9c; /* Turquoise */
+}
+
+.progress-bar-warning {
+  background-color: #f39c12; /* Amber */
+}
+
+.progress-bar-danger {
+  background-color: #e74c3c; /* Soft Red */
+}

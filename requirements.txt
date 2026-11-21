@@ -1,0 +1,12 @@
+﻿Flask
+Flask-Login
+Flask-Security-Too
+Flask-SQLAlchemy
+Flask-Mail
+Flask-Caching
+SQLAlchemy
+python-dotenv
+Celery
+fpdf2
+reportlab
+matplotlib
